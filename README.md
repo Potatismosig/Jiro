@@ -26,4 +26,5 @@ https://github.com/orgs/GitWebb22/frontend-1_data
 Här finns ett repo där ni kan dela er personliga information, så att andra kan använda er som testpersoner. Byt inte namn på några filer så borde det inte uppstå några konflikter.
 
 ## Steg 6
-Vidare instruktioner kommer...
+Instruktion: Fungerande README (Byta ut denna fil och ersätt med instruktion till en annan utvecklare )
+

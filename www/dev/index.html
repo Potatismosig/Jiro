@@ -1,38 +1,61 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Sidans titel (development)</title>
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    </head>
-    <body>
-        <nav>
-            <ul>
-                <li><a href="/">Start</a></li>
-            </ul>
-        </nav>
-        <main>
-            <h1 id="DocumentTitle">Frontend 1: Examinationsuppgift</h1>
-            <section id="MainDescription">
-                <p>
-                    Välkommen till kursen "Frontent 1: Javascript" hos Nackademin. Hoppas alla har kul.
-                    </p>
-                <p>
-                    Det här projektet är tänkt att ge alla studenter ett ramverk för att dela, testa, granska och lämna in kod. Glöm inte att ha kul ':p
-                    </p>
-            </section>
-            
-            <section data-source="content">
-            </section>
+  <head>
+    <title>Jirawans Examinationsuppgift</title>
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="/script.js" defer></script>
+  </head>
 
-            <section>
-            </section>
-            
-            <p id="ProjectCredits">
-                Den här sidan är byggd med f_stack-js.<br/>
-            </p>
-        </main>
-        <script src="script.js"></script>
-    </body>
+  <body>
+      <ul>
+        <li><a href="/">Start</a></li> 
+      </ul>
+        <img src="https://scontent.fbma6-1.fna.fbcdn.net/v/t1.15752-9/308334583_1251705412057179_277838823487658444_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_ohc=8x8u_bPe2HAAX9qUqKo&_nc_ht=scontent.fbma6-1.fna&oh=03_AdT6_pS4bTWydF7oZ1i3bcMzmEY_6aq8v3jJz4wlFf7Vgw&oe=6371DCE8" 
+        alt="Image of the 3 users - Jiro, Junie, John" width="400px" class="center" />
+        
+    <main>
+      <h2 id="DocumentTitle">Examinationsuppgift i frontend 1</h2>
+      <h4 id="MainDescription" > Hallå hej! <br />
+        Varmt välkomna till min examinationsuppgift. Nedan ser ni information
+        om de olika användarna (users) som finns i mitt projekt. 😊 <br />
+      </h4>
+
+      <section>
+        <button class="jiro">Jiro</button>
+        <button class="junie">Junie</button>
+        <button class="john">John</button>
+      </section>
+
+      <section>
+        <p
+          class="para-output"
+          style="
+            border: dotted black 1px;
+            width: 65vw;
+            text-align: center;
+            font-weight: bolder;
+          "
+        ></p>
+      </section>
+
+      <section data-source="content"></section>
+
+      <section><ul data-source="users"></ul></section>
+
+      <p id="ProjectCredits"></p>
+      <p
+        style="
+          color: pink;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+        "
+      >
+        © Jirawan Sangthong <br />
+      </p>
+    </main>
+  </body>
 </html>
